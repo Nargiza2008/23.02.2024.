@@ -1,0 +1,64 @@
+section .img {
+   width: 735px;
+   height: 570px;
+   top: 540px;
+   left: 664px;
+}
+
+@media (max-width: 810px) {
+   nav .hamburger {
+      display: flex;
+   }
+}
+
+
+section {
+   max-width: 1200px;
+   border: 1px solid rgb(255, 255, 255);
+   margin: auto;
+   display: flex;
+   align-items: center;
+}
+ 
+
+@media  (max-width: 810px) {
+   footer .foter__card .card {
+      display: flex;
+   }
+   
+}
+
+
+.Nargiza .Nargiza__{
+   background-image: url(./Background.png);
+   color: white;
+   text-align: center;
+   padding: 40px;
+}
+
+
+
+
+footer {
+   background-color: #2C353E;
+}
+footer .footer__card .card5 {
+   padding: 10px;
+   background-color: #2C353E;
+   color: white;
+}
+footer .footer__card{
+   display: flex;
+   gap: 50px;
+   justify-content: center;
+   padding: 30px;
+}
+nav {
+   display: inline-block;
+   justify-content: center;
+}
+nav ul li a {
+   color: white;
+   text-decoration: none;
+   padding: 10px;
+}
